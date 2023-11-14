@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS Praktikum Pemrograman Web 1</title>
+</head>
+<body>
+    <fieldset>
+    <legend><b>Booking Service</b></legend>
+    <table>
+        <tr>
+            <td>
+               <label for="jenis">Jenis Kendaraan</label>
+            </td>
+            <td>:</td>
+            <td>
+                <select name="jenis" id="jenis" style="width: 100%;">
+                    <option value="minibus">minibus</option>
+                    <option value="motor">motor</option>
+                    <option value="mobil">mobil</option>
+                    <option value="kereta">kereta</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="pemesan">Nama Pemesan</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="text" name="pemesan" id="pemesan" style="width: 100%;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="kategori">Kategori Peminjam</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="radio" name="kategori" id="pribadi">
+                <label for="pribadi">Pribadi</label>
+                <input type="radio" name="kategori" id="perusahaan">
+                <label for="perusahaan">Perusahaan/Organisasi</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="deskripsi" >Deskripsi Kebutuhan</label>
+            </td>
+            <td>:</td>
+            <td>
+                <textarea name="deskripsi" id="deskripsi" cols="20" rows="5" style="resize: none; width:100%"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="waktu">Jam, Tanggal Service</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="datetime-local" name="waktu" id="waktu" style="width: 100%;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+<label for="montir">Request Montir</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="text" name="montir" id="montir" style="width: 100%;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="telepon">Nomer Telepon</label>
+            </td>
+            <td>:</td>
+            <td>
+               <input type="number" name="telepon" id="telepon" style="width: 100%;"> 
+            </td>
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="email" name="email" id="email" style="width: 100%;">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <input type="submit" name="submit" id="submit">
+                    <input type="reset" name="reset" id="reset">
+                </td>
+            </tr>
+
+    </table>
+</body>
+</html>
